@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="game2.css">
+    <script src="https://kit.fontawesome.com/e6ec6afb04.js" crossorigin="anonymous"></script>
+    <title>Game 1</title>
+</head>
+<body>
+
+  
+    <nav class="navbar">
+
+        <div class="brand-title">
+
+          <img src="./img\blije_dobbelsteen_logo (2).png" class="background-logo">
+
+        </div>
+
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+          
+        </a>
+
+        <div class="navbar-links">
+          <ul>
+            <li><a class="active" href="index.html">Home</a></li> 
+            <li><a href="game1.html">Game 1</a></li>
+            <li><a href="game2.html">Game 2</a></li>
+            <li><a href="spelregels.html">Spelregels</a></li>
+            <li><a href="over-ons.html">Over ons</a></li>
+            <li><a href="contactform.html">Contact</a></li>
+          </ul>
+        </div>
+
+    </nav>
+
+        <div class="content">
+            <!--- ----------Portdolio------------ -->
+        <div id="game-2">
+          <div class="container">
+              <h1 class="sub-tile">Game 1</h1>
+                  <div class="game-list">
+                      <div class="game">
+                          <img src="./img/bordenspel2.jpeg">
+                          <div class="layer">
+                              <h3>R/D Game</h3>
+                              <p>
+                                R/D GAME IS EEN SPEL WAAR JE DE RODE BLOKKEN MOET ONTWIJKEN 
+                                EN GROENE KLEINE BLKOSJES MOET AAN RAKEN OM NOG MEER VERDER TE KUNNEN KOMEN.
+                              </p>
+                              <a href="http://576079.klas4s22.mid-ica.nl/games/jsgame.html"><i class="fa-sharp fa-solid fa-play"></i>Play</i></a>
+                          </div>
+                      </div>
+                  </div>
+          </div>
+        </div>
+      
+      <div class="footer">
+        <p>Copyright &copy; 2023 <i>Ontworpen door: Team Developers</i>
+          Alle rechten voorbehouden.
+        </p>
+      </div>
+
+        
+      
+      
+      <script>
+
+        const toggleButton = document.getElementsByClassName('toggle-button')[0]
+        const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+        toggleButton.addEventListener('click', () => {
+        navbarLinks.classList.toggle('active')
+        })
+    </script>
+    
+</body>
+</html>
